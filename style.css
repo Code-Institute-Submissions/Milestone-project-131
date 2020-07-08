@@ -7,12 +7,31 @@ html, body{
     color: rgba(24, 23, 23, 0.753)
 }
 
+/*---NavBar---*/
+
+.navbar{
+    padding: 8px;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+#companyLogo {
+    width: 80px;
+    height: 80px;
+}
+
+.nav-link{
+    font-size: 17.5px !important; 
+}
+
 /*---Background Image---*/
 
-.background{
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/background.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.bg {
+  background-image: url("images/background.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
