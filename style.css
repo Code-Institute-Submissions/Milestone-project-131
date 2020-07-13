@@ -93,3 +93,7 @@ html, body{
     text-align: center;
     padding-bottom: 30px;
 }
+
+.feature-img img{
+    width: 100%;
+}
