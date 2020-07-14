@@ -120,6 +120,14 @@ html, body{
     margin-right: 5px;
 }
 
+#nyc{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-right: 5px; 
+}
+
 .feature-img{
     position: relative;
 }
