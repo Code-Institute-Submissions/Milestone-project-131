@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8a0d422d02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Where Next?</title>
+</head>
+<body>
+                    <!---Bootstrap Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href='index.html'><img src='images/logo.png' alt='company logo' id="companyLogo"></a> <!---image in header links to homepage-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsiveNavbar" aria-controls="responsiveNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class='navbar-toggler-icon'></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="responsiveNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class='nav-item'> <!---homepage is the current page and is highlighted in navbar -->
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class='nav-item active'>
+                                <a class="nav-link" href="destinations.html">Top Destinations</a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class="nav-link" href="">Travel Tips</a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class="nav-link" href="">#</a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class="nav-link" href="">#</a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class="nav-link login-btn" href="sign_up.html">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+    </nav>
+    <section class="destinations">
+        <h1>Hot Destinations</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <div class="feature-img">
+                                <img src="images/lisbon.png" alt="lisbon city">
+                                    <div class="price">
+                                        <p>£120</p>
+                                    </div>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-alt"></i>
+                                        </div>
+                            </div>
+                                <div class="destination-details">
+                                    <h4>Lisbon</h4>
+                                        <p>Lisbon is one of the oldest cities in the world, and the second-oldest European capital city (after Athens), 
+                                        predating other modern European capitals by centuries.</p>
+                                            <div>
+                                                <span><i class="fa fa-map-marker"></i>Portugal</span>
+                                                <span><i class="fa fa-moon"></i>3 Nights</span>
+                                                <span><i class="fa fa-sun"></i>4 Days</span>
+                                            </div>
+                                </div>
+                        </div>
+                    </div>
+                         <div class="col-md-4">
+                        <div class="feature-box">
+                            <div class="feature-img">
+                                <img src="images/phuket.png" alt="Phuket city">
+                                    <div class="price">
+                                        <p>£999</p>
+                                    </div>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                            </div>
+                                <div class="destination-details">
+                                    <h4>Phuket</h4>
+                                        <p>Phuket is the largest island in Thailand. It is in the Andaman Sea in southern Thailand. 
+                                            The island is mostly mountainous with a mountain range in the west of the island from the north to the south.</p>
+                                            <div>
+                                                <span><i class="fa fa-map-marker"></i>Thailand</span>
+                                                <span><i class="fa fa-moon"></i>7 Nights</span>
+                                                <span><i class="fa fa-sun"></i>8 Days</span>
+                                            </div>
+                                </div>
+                        </div>
+                    </div>
+                             <div class="col-md-4">
+                                  <div class="feature-box">
+                                     <div class="feature-img">
+                                     <img src="images/oslo.png" alt="Oslo city">
+                                        <div class="price">
+                                        <p>£499</p>
+                                        </div>
+                                            <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half"></i>
+                                            </div>
+                                    </div>
+                                <div class="destination-details">
+                                    <h4>Oslo</h4>
+                                        <p>Oslo is the economic and governmental centre of Norway. 
+                                            The city is also a hub of Norwegian trade, banking, industry and shipping.</p>
+                                            <div>
+                                                <span><i class="fa fa-map-marker"></i>Norway</span>
+                                                <span><i class="fa fa-moon"></i>4 Nights</span>
+                                                <span><i class="fa fa-sun"></i>5 Days</span>
+                                            </div>
+                                </div>
+                        </div>
+                    </div>
+                        </div>
+                            </div>                        
+                </div>
+            </div>
+            </div>
+    </section>
+                    <!---Footer-->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <iframe width="100%" height="100%"style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJoyYH3VL7eUgRGLC-rY9n6H8&key=AIzaSyBdzYyNdBvNU3rtO-vLR3D1txuIoy6WKqI" allowfullscreen></iframe>
+                </div>                  
+                        <div class="col-md-4">
+                            <img src="images/logo.png" alt="logo image" id="logoImage">
+                                <hr class="light">
+                                        <p>Email: Email@email.com</p>
+                                        <p>Phone: 07777777777</p>
+                                        <p>Address: Ashby-De-La Zouch</p>
+                        </div>                
+                                                        <!---Social links-->
+        <div class="col-md-4 social">
+            <h2 class="display-4">Connect with us</h2>
+            <hr class="light">
+                <div class="social padding">
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.google.com/" target="blank"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.linkedin.com/" target="blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+                        </div>
+                            <div class="col-12 text-center">
+                                <hr class="light-full">
+                                    <h5>&copy; wherenext.com</h5>
+                            </div>
+        </div>
+        </div>
+    </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
