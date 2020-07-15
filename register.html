@@ -20,7 +20,7 @@
                 </button>
                     <div class="collapse navbar-collapse" id="responsiveNavbar">
                         <ul class="navbar-nav ml-auto">
-                            <li class='nav-item active'> <!---homepage is the current page and is highlighted in navbar -->
+                            <li class='nav-item'> <!---homepage is the current page and is highlighted in navbar -->
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class='nav-item'>
@@ -29,25 +29,63 @@
                             <li class='nav-item'>
                                 <a class="nav-link" href="tips.html">Travel Tips</a>
                             </li>
-                            <li class='nav-item'>
+                            <li class='nav-item active'>
                                 <a class="nav-link login-btn" href="register.html">Register</a>
                             </li>
                         </ul>
                     </div>
         </div>
     </nav>
-        <section class="main bg">
-            <div class="search">
-                 <h1>So, where to next?</h1>
-                     <p>Enter your destination below</p>
-                          <div class="input-group">
-                             <input type="text" class="form-control" placeholder="Search for a country or city">
-                                   <div class="input-group-append">
-                                        <button type="Submit" class="input-group-text-btn">Search</button>
-                                     </div>
-                             </div>
-             </div>
-        </section>
+                    <!---Welcome section--->
+<a id="serviceSection" class="container-fluid padding"></a>
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class='display-4'>New Member Registration</h1>
+        </div>
+            <hr>
+                <div class="col-12">
+                    <p class="lead">This is the first step in becomming a happier, healthier version of yourself! Register below to get started.</p>
+                </div>
+    </div>
+                            <!---Sign up Form-->
+        <div class="container-fluid">
+            <div class="row welcome">
+                <div class="col-12">
+                    <form class="form-container">
+                        <div class="form-group">
+                            <h6 class='display-4 text-center'>Register</h6>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="First Name"/>
+                                </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Second Name"/>
+                                    </div>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" id="email" placeholder="Email Address">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                            <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+                            </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" name="repeat password" placeholder="Repeat Password">
+                            </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                </div>
+                                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                                        <div class="col-md-12 mb-3">
+                                            <p class="text-center">
+                                                <a href="#" class="google btn mybtn"><i class="fab fa-google-plus-g"></i> Register using Google</a> <!---not currently linked to any back end validation-->
+                                            </p>
+                                        </div>
+                                            <div class="form-group">
+                                                <p class="text-center">Already have an account? <a href="member_portal.html" id="signup">Sign in here</a></p> <!---links to members portal-->
+                                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
                     <!---Footer-->
     <footer>
         <div class="container-fluid padding">
@@ -86,4 +124,3 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-</html>

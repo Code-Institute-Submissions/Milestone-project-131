@@ -167,10 +167,22 @@ html, body{
 
 /*---travel tips--*/
 
+.references h1{
+    text-align: center;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    text-decoration: underline;
+    padding: 30px;
+    font-weight: 700px
+}
+
 .card{
     width: 18rem;
     box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
     margin-bottom: 30px;
+}
+
+.card:hover{
+transform: scale(1.1);
 }
 
 #tripAdviserLogo{
@@ -181,6 +193,79 @@ html, body{
 #xeLogo{
     height:150px;
 }
+
+.top10{
+    box-shadow: 0 0 15px 10px rgba(37, 73, 214, 0.18);
+}
+
+.top10 h2{
+    font-weight: 700px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px rgba(37, 73, 214, 0.18);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#containerBackground{
+    background-color: rgba(156, 148, 148, 0.26);
+    padding:0;
+}
+
+.bacpacker-img{
+  background-image: url("images/backpacker.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-background{
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    margin-bottom: 30px;
+    background-color: rgba(211, 199, 199, 0.514);
+    height: 100%
+}
+
+.list-items{
+    font-size: 40px;
+    font-weight: 300px;
+    color: white;
+    z-index: 1;
+    margin-left: 300px
+}
+
+/*---Welcome---*/
+
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.welcome hr {
+    border-top: 2px solid rgba(49, 48, 48, 0.753);
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+
+#joinNow{
+    margin-bottom: 20px;
+}
+
+/*---Form Container---*/
+
+.form-container{
+    background-color:whitesmoke;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
 
 /*---Footer--*/
 
@@ -198,7 +283,7 @@ hr.light{
 }
 
 #logoImage{
-    height: 45%;
+    height: 55%;
     width: 45%;
     filter: invert(100%);
 }
@@ -253,59 +338,54 @@ hr.light-full{
 
 /*---Media Queries---*/
 
+@media (min-width: 992px){
+    .social h2{
+        margin-top: 90px;
+    }
+}
+
 @media (max-width: 992px){
     .social a{
         font-size: 60px;
         padding: 20px;
     }
-    #galleryColumn{
-        flex: 50%;
-        max-width: 50%;
-    }
 }
 @media (max-width: 768px){
-    .hero-text{
+    .social h2{
         top: 45%;
-        font-size: 100%;
+        font-size: 90%;
         font-weight: 400;
         padding-bottom: 3px;
     }
-    #coverButton{
-        font-size: 95%;
-        padding: 8px 14px;
-    }
+
+    .login-btn{
+        border:0;
+}
+
     .display-4{
-        font-size: 200%;
+        font-size: 100%;
     }
     .social a{
         font-size: 40px;
         padding: 10px;
     }  
-    #galleryColumn{
-        flex: 100%;
-        max-width: 100%;
-    }
-
 }
 @media (max-width: 576px){
-        .hero-text{
-        top: 40%;
-        font-size: 90%;
-        font-weight: 300;
-        padding-bottom: 2px;
+    .social h2{
+        top: 45%;
+        font-size: 70%;
+        font-weight: 400;
+        padding-bottom: 3px;
     }
-    #coverButton{
-        font-size: 90%;
-        padding: 4px 8px;
-    }
+    .login-btn{
+        border:0;
+}
     .display-4{
-        font-size: 150%;
+        font-size: 100%;
     }
+
     .social a{
         font-size: 20px;
         padding: 0;
     }    
-        #galleryColumn{
-        flex: 100%;
-        max-width: 100%;
-    }
+}
