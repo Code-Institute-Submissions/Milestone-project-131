@@ -23,7 +23,7 @@ html, body{
 }
 
 .nav-link{
-    font-size: 17.5px !important; 
+    font-size: 17.5px!important; 
 }
 
 .login-btn{
@@ -43,7 +43,7 @@ html, body{
 }
 
 .bg-booking{
-  padding-top: 100px;
+  padding-top: 250px;
   background-image: url("images/background2.png");
   height: 100%;
   background-position: center;
@@ -77,20 +77,20 @@ html, body{
 }
 
 .form-control{
-    border: 0 !important;
-    border-radius: 30px !important;
+    border: 0!important;
+    border-radius: 30px!important;
     margin: 2px;
-    box-shadow: none !important;
+    box-shadow: none!important;
 }
 
 .input-group-text-btn{
     width: 100px;
     background-image: linear-gradient(#00ff7e, #1f3d90);
-    border: 0 !important;
-    color: #fff !important;
-    padding: 0 25px !important;
-    border-radius: 30px !important;
-    box-shadow: none !important;
+    border: 0!important;
+    color: #fff!important;
+    padding: 0 25px!important;
+    border-radius: 30px!important;
+    box-shadow: none!important;
 }
 
 .input-group-text-btn:focus{
@@ -314,7 +314,7 @@ transform: scale(1.1);
 }
 
 .input::placeholder{
-    color: #fff !important;
+    color: #fff!important;
 
 }
 
@@ -324,11 +324,10 @@ transform: scale(1.1);
 }
 
 .form-control{
-    font-size: 12px !important;
-    border-radius: 30px !important;
-    color: #fff !important;
-    background: transparent !important;
-    box-shadow: none !important;
+    font-size: 12px!important;
+    border-radius: 0px!important;
+    color: #000!important;
+    box-shadow: none!important;
 }
 
 .select-date::-webkit-inner-spin-button,
@@ -337,17 +336,17 @@ transform: scale(1.1);
     margin: 0;
 }
 
-.select-date::-webkit-calendar-picker-indicator{
-    background: transparent !important;
+.select-date::-webkit-calender-picker-indicator{
+    background: transparent!important;
 }
 
 .custom-select{
-    color: #fff !important;
-    font-size: 12px !important;
-    border: 1px solid #ced4da !important;
-    box-shadow: none !important;
-    border-radius: 0 !important;
-    background: transparent !important;
+    color: #fff!important;
+    font-size: 12px!important;
+    border: 1px solid #ced4da!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+    background: transparent!important;
 }
 
 .custom-select option{
@@ -356,18 +355,18 @@ transform: scale(1.1);
 
 .flight{
     width: 100%;
-    padding: 9px 0 !important;
-    font-size: 12px !important;
-    border: 1px solid #ced4da !important;
-    background: transparent !important;
-    box-shadow: none !important;
-    border-radius: 0 !important;
+    padding: 9px 0!important;
+    font-size: 12px!important;
+    border: 1px solid #ced4da!important;
+    background: transparent!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
 }
 
 .flight:hover{
-    background-color: #fff !important;
-    color: #000 !important;
-    transition: 0.5s !important;
+    background-color: #fff!important;
+    color: #000!important;
+    transition: 0.5s!important;
 }
 
 /*---Welcome---*/
@@ -498,19 +497,37 @@ hr.light-full{
 }
 
     .display-4{
-        font-size: 100%;
+        font-size: 90%;
     }
     .social a{
-        font-size: 40px;
+        font-size: 30px;
         padding: 10px;
     }  
+
+    #logoImage{
+        width: 100%;
+    }
+
+    .bg-booking{
+        padding-top: 200px;
+    }
 }
 @media (max-width: 576px){
+
+    .search h1{
+        font-size: 30px;
+    }
+
+    .search p{
+        font-size: 15px;
+    }    
+
     .social h2{
         top: 45%;
         font-size: 70%;
         font-weight: 400;
         padding-bottom: 3px;
+        padding-top: 0;
     }
     .login-btn{
         border:0;
@@ -523,4 +540,13 @@ hr.light-full{
         font-size: 20px;
         padding: 0;
     }    
+
+    #logoImage{
+        height: 50%;
+        width: 50%;
+    }
+
+    .bg-booking{
+        padding-top: 100px;
+    }
 }
