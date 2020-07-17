@@ -43,7 +43,7 @@ html, body{
 }
 
 .bg-booking{
-  padding-top: 250px;
+  padding-top: 120px;
   background-image: url("images/background2.png");
   height: 100%;
   background-position: center;
@@ -325,7 +325,7 @@ transform: scale(1.1);
 
 .form-control{
     font-size: 12px!important;
-    border-radius: 0px!important;
+    border-radius: 10px!important;
     color: #000!important;
     box-shadow: none!important;
 }
@@ -475,6 +475,10 @@ hr.light-full{
 @media (min-width: 992px){
     .social h2{
         margin-top: 90px;
+    }
+
+    .bg-booking{
+  padding-top: 250px;
     }
 }
 
