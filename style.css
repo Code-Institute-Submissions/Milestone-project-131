@@ -43,7 +43,6 @@ html, body{
 }
 
 .bg-booking{
-  padding-top: 120px;
   background-image: url("images/background2.png");
   height: 100%;
   background-position: center;
@@ -260,7 +259,9 @@ transform: scale(1.1);
 
 /*---Booking form--*/
 
-
+.flight-widget{
+    width: 500px;
+}
 /*---Welcome---*/
 
 .welcome{
@@ -407,6 +408,10 @@ hr.light-full{
     .bg-booking{
         padding-top: 200px;
     }
+
+    .flight-widget{
+        width: 400px;
+}
 }
 @media (max-width: 576px){
 
@@ -445,4 +450,8 @@ hr.light-full{
     .bg-booking{
         padding-top: 100px;
     }
+
+    .flight-widget{
+        width: 250px;
+}
 }
