@@ -9,4 +9,3 @@
     var rand = Math.floor(Math.random()*quotes.length);
     document.write(quotes[rand]);
   }
-  writeRandomQuote();

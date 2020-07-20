@@ -101,7 +101,8 @@ html, body{
 .homepage-quote{
     text-align: center;
     color: #fff;
-    font-weight: 100px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 /*---Destinations---*/
@@ -254,15 +255,15 @@ transform: scale(1.1);
     box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
     margin-bottom: 30px;
     background-color: rgba(211, 199, 199, 0.514);
-    height: 100%
+    height: 100%;
 }
 
 .list-items{
-    font-size: 40px;
-    font-weight: 300px;
+    font-size: 20px;
+    font-weight: 200px;
     color: white;
     z-index: 1;
-    margin-left: 300px
+    margin-left: 300px;
 }
 
 /*---Booking form--*/
@@ -372,6 +373,11 @@ hr.light-full{
 /*---Media Queries---*/
 
 @media (min-width: 992px){
+
+    .list-items{
+    font-size: 40px;
+    font-weight: 300px;
+}
     .social h2{
         margin-top: 90px;
     }
