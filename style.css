@@ -98,6 +98,14 @@ html, body{
 
 /*---Destinations---*/
 
+.homepage-quote{
+    text-align: center;
+    color: #fff;
+    font-weight: 100px;
+}
+
+/*---Destinations---*/
+
 .destinations{
     padding: 100px 0;
 }
