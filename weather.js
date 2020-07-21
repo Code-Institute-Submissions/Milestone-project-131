@@ -1,3 +1,5 @@
+// Location based weather
+
 // SELECT ELEMENTS
 const iconElement = document.querySelector(".weather-icon");
 const tempElement = document.querySelector(".temperature-value p");
@@ -87,4 +89,6 @@ tempElement.addEventListener("click", function(){
         tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
         weather.temperature.unit = "celsius"
     }
+
+    setInterval('__displayWeather_init()', 500);
 });

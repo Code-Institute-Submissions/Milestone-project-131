@@ -306,12 +306,11 @@ transform: scale(1.1);
 .weather-app{
     width: 300px;    
     background-color: #FFF;
-    
     display: block;
     margin: 0 auto;
-    
-    border-radius: 10px;
+    border-radius: 15px;
     padding-bottom : 50px;
+    position: center;
 }
 
 .app-title{
@@ -391,6 +390,10 @@ transform: scale(1.1);
     color: #293251;
     text-align: center;
     font-size: 0.8em;
+}
+
+.search-box{
+    position: center;
 }
 
 /*---Footer--*/
