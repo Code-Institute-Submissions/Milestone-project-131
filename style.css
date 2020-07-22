@@ -54,16 +54,18 @@ html, body{
 
 .search h1{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 25px;
     padding-bottom: 0;
     font-size: 55px;
     color: #fff;
+    text-shadow: 3px 3px rgba(37, 73, 214, 0.18);
 }
 
 .search p{
     text-align: center;
     font-size: 25px;
     color: #fff;
+    text-shadow: 3px 3px rgba(37, 73, 214, 0.18);
 }
 
 .input-group{
@@ -103,6 +105,20 @@ html, body{
     color: #fff;
     font-weight: bold;
     font-style: italic;
+}
+
+/*---homepage weather---*/
+
+.weather{
+    padding: 10px 0px 0px 0px; 
+    margin: 0;
+    text-align: center;
+}
+
+.temperature-value{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 /*---Destinations---*/
