@@ -44,9 +44,22 @@
         </div>
     </nav>
         <section class="main bg">
-            <div class="container-fluid homepage-quote">
-                 <script type="text/javascript">writeRandomQuote();</script> <!---random quote generator-->
-            </div>
+        <div class="row">
+                <div class="container-fluid homepage-quote col-lg-12">
+                    <script type="text/javascript">writeRandomQuote();</script> <!---random quote generator-->
+                </div>
+        </div>
+                <div class="row">
+                    <div class="container-fluid col-lg-12 weather">
+                        <div class="weather-icon">
+                            <img src="icons/unknown.png">
+                        </div>
+                            <div class="temperature-value">
+                                <p>- °<span>C</span></p>
+                            </div> 
+                    </div>
+                        <script src="weather.js"></script>
+        </div>
                 <div class="search">
                     <h1>So, where to next?</h1>
                         <p>Enter your destination below</p>
