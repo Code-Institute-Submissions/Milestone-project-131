@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8a0d422d02.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="quote.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Where Next?</title>
 </head>
@@ -20,7 +21,7 @@
                 </button>
                     <div class="collapse navbar-collapse" id="responsiveNavbar">
                         <ul class="navbar-nav ml-auto">
-                            <li class='nav-item'> 
+                            <li class='nav-item '> 
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class='nav-item'>
@@ -29,46 +30,34 @@
                             <li class='nav-item'>
                                 <a class="nav-link" href="tips.html">Travel Tips</a>
                             </li>
-                           <li class='nav-item'>
+                            <li class='nav-item'>
                                 <a class="nav-link" href="booking.html">Book a Trip</a>
                             </li>
-                            <li class='nav-item active'><!---current page and is highlighted in navbar -->
-                                <a class="nav-link" href="weather.html">Weather Checker</a>
-                            </li>
                             <li class='nav-item'>
-                                <a class="nav-link" href="map.html">World Map</a>
-                            </li>
+                                <a class="nav-link" href="weather.html">Weather Checker</a>
+                            </li>  
+                            <li class='nav-item active'>
+                                <a class="nav-link" href="map.html">World Map</a> <!---current page and is highlighted in navbar -->
+                            </li>   
                             <li class='nav-item'>
                                 <a class="nav-link login-btn" href="register.html">Register</a>
-                            </li>   
+                            </li>                         
                         </ul>
                     </div>
         </div>
     </nav>
-<a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="original" >NEW YORK WEATHER</a>
-    <script>
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-    </script>
-        <a class="weatherwidget-io" href="https://forecast7.com/en/51d51n0d13/london/" data-label_1="LONDON" data-label_2="WEATHER" data-theme="original" >LONDON WEATHER</a>
-            <script>
-                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-            </script>
-                <a class="weatherwidget-io" href="https://forecast7.com/en/35d71139d73/tokyo/" data-label_1="TOKYO" data-label_2="WEATHER" data-theme="original" >TOKYO WEATHER</a>
-                    <script>
-                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-                    </script>
-                        <a class="weatherwidget-io" href="https://forecast7.com/en/39d90116d41/beijing/" data-label_1="BEIJING" data-label_2="WEATHER" data-theme="original" >BEIJING WEATHER</a>
-                            <script>
-                                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-                            </script>
-                                <a class="weatherwidget-io" href="https://forecast7.com/en/n33d87151d21/sydney/" data-label_1="SYDNEY" data-label_2="WEATHER" data-theme="original" >SYDNEY WEATHER</a>
-                                    <script>
-                                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-                                    </script>
-                                        <a class="weatherwidget-io" href="https://forecast7.com/en/55d7637d62/moscow/" data-label_1="MOSCOW" data-label_2="WEATHER" data-theme="original" >MOSCOW WEATHER</a>
-                                            <script>
-                                                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-                                            </script>
+    <title>World Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIRPTZjn_1EvMYyGlg8uepNzPGrO75l-g&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="map.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
                     <!---Footer-->
     <footer>
         <div class="container-fluid padding">
@@ -101,8 +90,10 @@
                                     <h5>&copy; wherenext.com</h5>
                             </div>
         </div>
+        </div>
     </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+</html>

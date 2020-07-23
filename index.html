@@ -37,8 +37,11 @@
                                 <a class="nav-link" href="weather.html">Weather Checker</a>
                             </li>  
                             <li class='nav-item'>
+                                <a class="nav-link" href="map.html">World Map</a>
+                            </li>   
+                            <li class='nav-item'>
                                 <a class="nav-link login-btn" href="register.html">Register</a>
-                            </li>                          
+                            </li>                         
                         </ul>
                     </div>
         </div>
@@ -62,13 +65,12 @@
         </div>
                 <div class="search">
                     <h1>So, where to next?</h1>
-                        <p>Enter your destination below</p>
-                          <div class="input-group">
-                             <input type="text" class="form-control" placeholder="Search for a country or city">
-                                   <div class="input-group-append">
-                                        <button type="Submit" class="input-group-text-btn">Search</button>
+                        <p>Click the button to generate a new destination!</p>
+                                   <div class="container-fluid random-place col-lg-12">
+                                        <button onclick = "writeRandomPlace()" type="Submit" class="input-group-text-btn">Generate</button>
                                      </div>
-                             </div>
+                                        <div class="container-fluid col-lg-12" id="placeDisplay"></div>
+                                            <script src="places.js"></script> <!---random place generator-->
              </div>
         </section>
                     <!---Footer-->

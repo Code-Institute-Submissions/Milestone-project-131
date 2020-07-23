@@ -65,16 +65,7 @@ html, body{
     text-align: center;
     font-size: 25px;
     color: #fff;
-    text-shadow: 3px 3px rgba(37, 73, 214, 0.18);
-}
-
-.input-group{
-    width: 90%;
-    max-width: 500px;
-    border-radius: 30px;
-    background: #fff;
-    margin: auto;
-    padding: 2px;
+    text-shadow: 5px 5px rgba(37, 73, 214, 0.18);
 }
 
 .form-control{
@@ -89,9 +80,10 @@ html, body{
     background-image: linear-gradient(#00ff7e, #1f3d90);
     border: 0!important;
     color: #fff!important;
-    padding: 0 25px!important;
+    padding: 0;
     border-radius: 30px!important;
     box-shadow: none!important;
+    text-align: center;
 }
 
 .input-group-text-btn:focus{
@@ -101,6 +93,13 @@ html, body{
 /*---homepage---*/
 
 .homepage-quote{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#placeDisplay{
     text-align: center;
     color: #fff;
     font-weight: bold;
@@ -319,7 +318,17 @@ transform: scale(1.1);
 
 /*---Weather App---*/
 
+#map {
+  height: 100%;
+}
 
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 /*---Footer--*/
 
 footer{
@@ -391,10 +400,10 @@ hr.light-full{
 
 /*---Media Queries---*/
 
-@media (min-width: 992px){
+@media (min-width: 993px){
 
     .list-items{
-    font-size: 40px;
+    font-size: 21px;
     font-weight: 300px;
 }
     .social h2{
