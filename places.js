@@ -23,6 +23,16 @@
     places[18] = 'Singapore';
     places[19] = 'Germany';
     places[20] = 'Greece';
+    places[21] = 'Sri Lanka';
+    places[22] = 'South Africa';
+    places[23] = 'Maldives';
+    places[24] = 'Mauritius';
+    places[25] = 'Turkey';
+    places[26] = 'Scotland';
+    places[27] = 'Iceland';
+    places[28] = 'India';
+    places[29] = 'Norway';
+    places[30] = 'Sweden';
     var rand = Math.floor(Math.random()*places.length);
     document.getElementById('placeDisplay').innerHTML = places[rand];
-  }
+  };
