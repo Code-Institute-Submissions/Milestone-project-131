@@ -40,45 +40,25 @@
                                 <a class="nav-link" href="map.html">World Map</a>
                             </li>   
                             <li class='nav-item'>
-                                <a class="nav-link login-btn" href="register1.html">Register</a>
+                                <a class="nav-link login-btn" href="register.html">Register</a>
                             </li>                         
                         </ul>
                     </div>
         </div>
     </nav>
-        <section class="main bg">
-        <div class="row">
-                <div class="container-fluid homepage-quote col-lg-12">
-                    <script type="text/javascript">writeRandomQuote();</script> <!---random quote generator-->
+        <section class="main bg-sign-in">
+            <div class="login-page">
+                <div class="form">
+                    <form class="register-form">
+                        <input type="text" placeholder="Email Address">
+                        <input type="text" placeholder="Password">
+                        <input type="text" placeholder="Confirm Password">
+                            <button>Create Account</button>
+                    </form>
                 </div>
-        </div>
-                <div class="row">
-                    <div class="container-fluid col-lg-12 weather">
-                        <div class="weather-icon">
-                            <img src="icons/unknown.png">
-                        </div>
-                            <div class="temperature-value">
-                                <p>- °<span>C</span></p>
-                            </div> 
-                    </div>
-                        <script src="weather.js"></script>
-        </div>
-                <div class="search">
-                    <h1>So, where to next?</h1>
-                        <p>Click the button to generate a new destination!</p>
-                        <div class="row">
-                                   <div class="container-fluid random-place col-lg-12">
-                                        <button onclick = "writeRandomPlace()" type="Submit" class="input-group-text-btn">Generate</button>
-                                     </div>
-                        </div>
-                            <div class="row">
-                                        <div class="container-fluid col-lg-12" id="placeDisplay"></div>
-                            </div>
-                                            <script src="places.js"></script> <!---random place generator-->
-                        
-             </div>
+            </div>
         </section>
-                    <!---Footer-->
+                        <!---Footer-->
     <footer>
         <div class="container-fluid padding">
             <div class="row text-center">
