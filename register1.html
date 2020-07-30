@@ -51,13 +51,25 @@
                 <div class="form">
                     <form class="register-form">
                         <input type="text" placeholder="Email Address">
-                        <input type="text" placeholder="Password">
-                        <input type="text" placeholder="Confirm Password">
+                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Confirm Password">
                             <button>Create Account</button>
+                                <p class="message" href="#">Already a Member?<a href="#">Login</a></p>
                     </form>
+                        <form class="login-form">
+                           <input type="text" placeholder="Email Address">
+                           <input type="password" placeholder="Password">
+                            <button>Login</button>
+                                <p class="message" href="#">Not Registered?<a href="#">Register</a></p> 
+                        </form>
                 </div>
             </div>
         </section>
+            <script>    
+                $(".message a").click(function(){
+                    $("form").animate({height: "toggle", opacity: "toggle"}, "slow");
+                });
+                </script>
                         <!---Footer-->
     <footer>
         <div class="container-fluid padding">
