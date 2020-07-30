@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8a0d422d02.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="quote.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Where Next?</title>
 </head>
@@ -20,7 +21,7 @@
                 </button>
                     <div class="collapse navbar-collapse" id="responsiveNavbar">
                         <ul class="navbar-nav ml-auto">
-                            <li class='nav-item'> 
+                            <li class='nav-item active'> <!---homepage is the current page and is highlighted in navbar -->
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class='nav-item'>
@@ -34,67 +35,43 @@
                             </li>
                             <li class='nav-item'>
                                 <a class="nav-link" href="weather.html">Weather Checker</a>
-                            </li> 
+                            </li>  
                             <li class='nav-item'>
                                 <a class="nav-link" href="map.html">World Map</a>
-                            </li>          
-                            <li class='nav-item active'>
-                                <a class="nav-link login-btn" href="register.html">Register</a> <!---current page and is highlighted in navbar -->
-                            </li>                          
+                            </li>   
+                            <li class='nav-item'>
+                                <a class="nav-link login-btn" href="register.html">Register</a>
+                            </li>                         
                         </ul>
                     </div>
         </div>
     </nav>
-                    <!---Welcome section--->
-<a id="serviceSection" class="container-fluid padding"></a>
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h1 class='display-4'>Join The Club</h1>
-        </div>
-            <hr>
-                <div class="col-12">
-                    <p class="lead">Sign up to receive exclusive offers and discounts!</p>
-                </div>
-    </div>
-                            <!---Sign up Form-->
-        <div class="container-fluid">
-            <div class="row welcome">
-                <div class="col-12">
-                    <form class="form-container">
-                        <div class="form-group">
-                            <h6 class='display-4 text-center'>Register</h6>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="First Name"/>
-                                </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="name" id="name" placeholder="Second Name"/>
-                                    </div>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" id="email" placeholder="Email Address">
-                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                            <div class="form-group">
-                                    <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
-                            </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" id="exampleInputPassword1" name="repeat password" placeholder="Repeat Password">
-                            </div>
-                                <div class="form-group form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                                </div>
-                                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
-                                        <div class="col-md-12 mb-3">
-                                            <p class="text-center">
-                                                <a href="#" class="google btn mybtn"><i class="fab fa-google-plus-g"></i> Register using Google</a> <!---not currently linked to any back end validation-->
-                                            </p>
-                                        </div>
-                                            <div class="form-group">
-                                                <p class="text-center">Already have an account? <a href="index.html" id="signup">Sign in here</a></p> <!---links to home page as members portal not developed-->
-                                            </div>
+        <section class="main bg-sign-in">
+            <div class="login-page">
+                <div class="form">
+                    <form class="register-form">
+                        <input type="text" placeholder="Email Address">
+                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Confirm Password">
+                            <button>Create Account</button>
+                                <p class="message">Already a Member?<a href="#">Login</a></p>
+                    </form>
+                        <form class="login-form">
+                           <input type="text" placeholder="Email Address">
+                           <input type="password" placeholder="Password">
+                            <button>Login</button>
+                                <p class="message">Not Registered?<a href="#">Register</a></p> 
+                        </form>
                 </div>
             </div>
-        </div>
-                    <!---Footer-->
+        </section>
+            <script>    
+                $('.message a').click(function(){
+                    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+                });
+                </script>
+                
+                        <!---Footer-->
     <footer>
         <div class="container-fluid padding">
             <div class="row text-center">
@@ -126,9 +103,9 @@
                                     <h5>&copy; wherenext.com</h5>
                             </div>
         </div>
-        </div>
     </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+</html>
