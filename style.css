@@ -570,7 +570,7 @@ hr.light-full{
 }
 
     .references h1{
-        font-size: 25px;
+        font-size: 40px;
     }
 
     .tips-title h2{
@@ -582,8 +582,11 @@ hr.light-full{
     }
 
     .list-items{
-        font-size: 17px;
+        font-size: 15px;
         margin-left: 0;
     }
 
+    .col-md-4{
+        padding-left: 50px;
+    }
 }
