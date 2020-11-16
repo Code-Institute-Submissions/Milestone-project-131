@@ -71,10 +71,9 @@ html, body{
 
 .search p{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 25px;
     color: #fff;
-    text-shadow: 5px 5px rgba(37, 73, 214, 0.18);
 }
 
 .form-control{
@@ -295,7 +294,7 @@ transform: scale(1.1);
     font-weight: 200px;
     color: white;
     z-index: 1;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 /*---Booking form--*/
@@ -569,4 +568,22 @@ hr.light-full{
     .flight-widget{
         width: 250px;
 }
+
+    .references h1{
+        font-size: 25px;
+    }
+
+    .tips-title h2{
+        font-size: 20px;
+    }
+
+    .col-background h2{
+        font-size: 20px;
+    }
+
+    .list-items{
+        font-size: 17px;
+        margin-left: 0;
+    }
+
 }

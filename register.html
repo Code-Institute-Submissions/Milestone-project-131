@@ -73,9 +73,9 @@
                         <script type="text/javascript">
                             $(function () {
                             $("#btnSubmit").click(function () {
-                                var password = $("#password").val();
-                                var confirmPassword = $("#confirm_password").val();
-                                    if (password != confirmPassword) {
+                                var password1 = $("#password").val();
+                                var password2 = $("#confirm_password").val();
+                                    if (password1 != password2) {
                                     alert("Passwords don't match, please try again.");
                                     return false;
                                     }
