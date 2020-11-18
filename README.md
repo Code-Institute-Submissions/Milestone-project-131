@@ -67,7 +67,9 @@ Functioning login form which navigates to user account
 ### Technologies used -
 
 HTML
+
 CSS
+
 Bootstrap 4
 Google Fonts
 Google Maps API
