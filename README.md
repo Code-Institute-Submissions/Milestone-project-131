@@ -66,15 +66,7 @@ Functioning login form which navigates to user account
 
 ### Technologies used -
 
-HTML | CSS | Bootstrap 4
-Google Fonts
-Google Maps API
-Open Weather Map API
-Sky Scanner API
-Font Awesome
-GitPod
-GitHub
-Git
+HTML | CSS | JavaScript | Bootstrap 4 | Google Fonts | Google Maps API | Open Weather Map API | Sky Scanner API | Font Awesome | GitPod | GitHub | Git
 
 * * * * *
 
