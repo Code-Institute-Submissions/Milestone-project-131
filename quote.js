@@ -1,4 +1,6 @@
-  writeRandomQuote = function () {
+ //Taken from free codecamp tutorial
+ 
+ writeRandomQuote = function () {
     var quotes = new Array();
     quotes[0] = '"Live with no excuses and travel with no regrets."';
     quotes[1] = '"We travel not to escape life but for life not to escape us."';

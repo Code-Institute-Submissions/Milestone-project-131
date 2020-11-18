@@ -1,3 +1,5 @@
+//Code taken from weather widget io
+
 // Location based weather
 
 // SELECT ELEMENTS

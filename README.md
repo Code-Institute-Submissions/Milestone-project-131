@@ -6,18 +6,21 @@ This website was created to help people find their next travel destination.
 
 ### Project aim -  
 
-To provide a responsive website where people can search for new travel destinations and find useful travel information.
+To provide a responsive website where people can search for new travel destinations and find useful travel information. 
 
 User Stories -
-As a new/existing user I'd like to 
-As a new/existing user I'd like to 
-As a new/existing user I'd like to 
+As a new/existing user I'd like to gain inspiration to visit a new destination
+As a new/existing user I'd like to see the latest travel deals
+As a new/existing user I'd like to see useful travel tips and links
 As an existing user I'd like to access my members portal
 As a new user I'd like to sign up to be a member
-As a new/existing user I'd like to 
-As a new/existing user I'd like to 
+As a new/existing user I'd like to search for flights to various locations
+As a new/existing user I'd like to view weather information for various locations
+As a new/existing user I'd like to browse a map of the world
 
-Structure and Features -
+* * * * *
+
+### Structure and Features -
 The website maintains a consistant structure of navigation bar, social links and footer across all 4 pages. These pages are -
 
 Homepage
@@ -43,13 +46,17 @@ World Map -
 
 Registration Page - 
 
-Features left to implement -
+### Features left to implement -
+
 Ability to search for weather in specific location
 Google login from members portal
 Individual team profiles
 Functioning login form
 
-Technologies used -
+* * * * *
+
+### Technologies used -
+
 HTML
 CSS
 Bootstrap 4
@@ -62,7 +69,10 @@ GitPod
 GitHub
 Git
 
-Testing -
+* * * * *
+
+### Testing -
+
 The website has been tested on -
 
 Safari
@@ -72,13 +82,20 @@ validator.w3.org
 jigsaw.w3.org
 Manual regression testing for large, medium and small breakpoints performed on the browsers above. All links and pages checked and validated as working.
 
-Credit -
+* * * * *
+
+### Credit -
+
 Code institue
 W3 schools
 Stack overflow
 W3 newbie - youtube
 Bootstrap
 Google
+
+* * * * *
+
+### Deployment - 
 
 Steps taken to deploy the projects
 I deployed the project on GitHub Pages by:
