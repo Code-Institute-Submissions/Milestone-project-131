@@ -18,6 +18,8 @@ As a new/existing user I'd like to search for flights to various locations
 As a new/existing user I'd like to view weather information for various locations
 As a new/existing user I'd like to browse a map of the world
 
+Project wireframes can be viewed here.
+
 * * * * *
 
 ### Structure and Features -
@@ -32,26 +34,33 @@ World Map
 Registration Page
 
 Homepage -
-The homepage consists of the bootstrap responsive navigation bar,
+The homepage consists of the bootstrap responsive navigation bar, a random travel related quote, the current weather for
+the user's current location, a random destination generator and a footer. The footer contains the company info and location
+as well as social links. The navbar and footer stay consistent throughout the website.
 
 Top Destinations -
+The top destinations page has 6 hot destination cards which contain info about the destination, the destination rating, 
+the package info, deal price and a link to book which navigates the user to the book a trip page.
 
 Travel Tips -
+The travel tips page contains links to useful related websites as well as top tips for travellers.
 
 Book a Trip -
+This page contains the skyscanner widget which allows users to search for flights to various locations on set dates.
 
 Weather checker - 
+The weather checker provides a 7 day forcast for majors cities around the world.
 
 World Map - 
+The world map contains an interactive world map which the users can use to discover new places to visit.
 
 Registration Page - 
+The registration page contains a registration form for new customers and a login form for existing customers.
 
 ### Features left to implement -
 
 Ability to search for weather in specific location
-Google login from members portal
-Individual team profiles
-Functioning login form
+Functioning login form which navigates to user account
 
 * * * * *
 
@@ -80,6 +89,7 @@ Chrome
 Firefox
 validator.w3.org
 jigsaw.w3.org
+JSHint.com
 Manual regression testing for large, medium and small breakpoints performed on the browsers above. All links and pages checked and validated as working.
 
 * * * * *
@@ -89,9 +99,13 @@ Manual regression testing for large, medium and small breakpoints performed on t
 Code institue
 W3 schools
 Stack overflow
-W3 newbie - youtube
 Bootstrap
 Google
+aspsnippets.com
+Easy tutorials - youtube
+freecode camp
+Tyler potts dev
+enlight.nyc
 
 * * * * *
 
