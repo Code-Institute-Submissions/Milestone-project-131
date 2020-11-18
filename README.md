@@ -66,7 +66,8 @@ Functioning login form which navigates to user account
 
 ### Technologies used -
 
-HTML | CSS | JavaScript | Bootstrap 4 | Google Fonts | Google Maps API | Open Weather Map API | Sky Scanner API | Font Awesome | GitPod | GitHub | Git
+HTML | CSS | JavaScript | Bootstrap 4 | Google Fonts | Google Maps API | Open Weather Map API | Sky Scanner API
+| Font Awesome | GitPod | GitHub | Git
 
 * * * * *
 
@@ -74,13 +75,7 @@ HTML | CSS | JavaScript | Bootstrap 4 | Google Fonts | Google Maps API | Open We
 
 The website has been tested on -
 
-Safari
-Chrome
-Firefox
-validator.w3.org
-jigsaw.w3.org
-JSHint.com
-Manual regression testing for large, medium and small breakpoints performed on the browsers above. All links and pages checked and validated as working.
+Safari | Chrome | Firefox | validator.w3.org | jigsaw.w3.org | JSHint.com |Manual regression testing for large, medium and small breakpoints performed on the browsers above. All links and pages checked and validated as working.
 
 * * * * *
 
