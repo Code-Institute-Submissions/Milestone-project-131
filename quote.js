@@ -8,4 +8,4 @@
     quotes[5] = '"It is better to travel well than to arrive."';
     var rand = Math.floor(Math.random()*quotes.length);
     document.write(quotes[rand]);
-  }
+  };
