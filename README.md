@@ -26,11 +26,17 @@ Project wireframes can be viewed here.
 The website maintains a consistant structure of navigation bar, social links and footer across all 4 pages. These pages are -
 
 Homepage
+
 Top Destinations
+
 Travel Tips
+
 Book a Trip
+
 Weather Checker
+
 World Map
+
 Registration Page
 
 Homepage -
@@ -60,6 +66,7 @@ The registration page contains a registration form for new customers and a login
 ### Features left to implement -
 
 Ability to search for weather in specific location
+
 Functioning login form which navigates to user account
 
 * * * * *
@@ -81,16 +88,8 @@ Safari | Chrome | Firefox | validator.w3.org | jigsaw.w3.org | JSHint.com |Manua
 
 ### Credit -
 
-Code institue
-W3 schools
-Stack overflow
-Bootstrap
-Google
-aspsnippets.com
-Easy tutorials - youtube
-freecode camp
-Tyler potts dev
-enlight.nyc
+Code institue | W3 schools | Stack overflow | Bootstrap | Google | aspsnippets.com | Easy tutorials - youtube |
+freecode camp | Tyler potts dev | enlight.nyc
 
 * * * * *
 
