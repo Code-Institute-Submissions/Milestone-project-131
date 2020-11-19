@@ -52,7 +52,7 @@
                     <script type="text/javascript">writeRandomQuote();</script> <!---random quote generator-->
                 </div>
         </div>
-                <div class="row">
+                <div class="row"> <!--Requires user to click allow on pop up-->
                     <div class="container-fluid col-lg-12 weather">
                         <div class="weather-icon">
                             <img src="icons/unknown.png">
@@ -65,17 +65,16 @@
         </div>
                 <div class="search">
                     <h1>So, where to next?</h1>
-                        <p>Click the button to generate a new destination!</p>
+                        <p>Click the button to generate a new destination!</p><!---random place generator-->
                         <div class="row">
                                    <div class="container-fluid random-place col-lg-12">
-                                        <button onclick = "writeRandomPlace()" type="Submit" class="input-group-text-btn">Generate</button>
+                                        <button onclick = "writeRandomCountry()" type="Submit" class="input-group-text-btn">Generate</button>
                                      </div>
                         </div>
                             <div class="row">
                                         <div class="container-fluid col-lg-12" id="placeDisplay"></div>
                             </div>
-                                            <script src="places.js"></script> <!---random place generator-->
-                        
+                                            <script src="places.js"></script> 
              </div>
         </section>
                     <!---Footer-->

@@ -6,19 +6,20 @@ This website was created to help people find their next travel destination.
 
 ### Project aim -  
 
-To provide a responsive website where people can search for new travel destinations and find useful travel information. 
+The purpose of this project was to provide a website where users could gain inspiration for new travel destinations
+and find useful tips for travelling abroad. I also wanted to include links to other useful websites that would provide relevant 
+travel services. As well as destination information I also wanted to provide weather and flight booking information in order
+to provide a one stop site for user's travel needs. Future development for this site would include the implementation of a 
+members portal where users can save travel deals, select favourite destinations and book holidays.
 
-User Stories -
-As a new/existing user I'd like to gain inspiration to visit a new destination
-As a new/existing user I'd like to see the latest travel deals
-As a new/existing user I'd like to see useful travel tips and links
-As an existing user I'd like to access my members portal
-As a new user I'd like to sign up to be a member
-As a new/existing user I'd like to search for flights to various locations
-As a new/existing user I'd like to view weather information for various locations
-As a new/existing user I'd like to browse a map of the world
+To maintain a clean appearence and good UX I decided to implement the same navbar and footer across all pages on the site and tried
+to avoid cramming too much text on any one page. To help with this a split the site in to different pages rather than having a single
+page which scrolled.
 
-Project wireframes can be viewed here.
+My initial designs included the implementation of a weather widget which would allow the user to search for the weather in
+any location. This design was changed due to the time needed to implement this feature. 
+
+The wireframes for this project can be viewed here.
 
 * * * * *
 
@@ -63,7 +64,7 @@ The world map contains an interactive world map which the users can use to disco
 Registration Page - 
 The registration page contains a registration form for new customers and a login form for existing customers.
 
-### Features left to implement -
+### Future Development -
 
 Ability to search for weather in specific location
 
@@ -83,6 +84,23 @@ HTML | CSS | JavaScript | Bootstrap 4 | Google Fonts | Google Maps API | Open We
 The website has been tested on -
 
 Safari | Chrome | Firefox | validator.w3.org | jigsaw.w3.org | JSHint.com |Manual regression testing for large, medium and small breakpoints performed on the browsers above. All links and pages checked and validated as working.
+
+User Stories -
+As a new/existing user I'd like to gain inspiration to visit a new destination
+
+As a new/existing user I'd like to see the latest travel deals
+
+As a new/existing user I'd like to see useful travel tips and links
+
+As an existing user I'd like to access my members portal
+
+As a new user I'd like to sign up to be a member
+
+As a new/existing user I'd like to search for flights to various locations
+
+As a new/existing user I'd like to view weather information for various locations
+
+As a new/existing user I'd like to browse a map of the world
 
 * * * * *
 

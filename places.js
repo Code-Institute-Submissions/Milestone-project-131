@@ -1,6 +1,4 @@
- 
-  
-  writeRandomPlace = function () {
+    writeRandomCountry = function () {
     var country = new Array();
     country[0] = 'Spain';
     country[1] = 'Thailand';
