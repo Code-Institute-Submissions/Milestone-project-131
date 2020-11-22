@@ -19,7 +19,7 @@ page which scrolled.
 My initial designs included the implementation of a weather widget which would allow the user to search for the weather in
 any location. This design was changed due to the time needed to implement this feature. 
 
-The wireframes for this project can be viewed [here.](https://gazmoore100.github.io/Milestone-project-2/tree/master/wireframes)
+The wireframes for this project can be viewed [here.](https://gazmoore100.github.io/Milestone-project-2/tree/master/wireframes/IMG_0661.PNG)
 
 * * * * *
 
