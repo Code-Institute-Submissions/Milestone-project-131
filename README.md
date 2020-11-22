@@ -102,7 +102,7 @@ As a new/existing user I'd like to view weather information for various location
 
 As a new/existing user I'd like to browse a map of the world
 
-The testing for this project can be viewed [here.](https://gazmoore100.github.io/Milestone-project-2/tree/master/testing)
+The testing for this project can be viewed [here.](testing)
 
 * * * * *
 
