@@ -84,6 +84,7 @@ HTML | CSS | JavaScript | Bootstrap 4 | Google Fonts | Google Maps API | Open We
 The website has been tested on -
 
 Safari | Chrome | Firefox | validator.w3.org | jigsaw.w3.org | JSHint.com |Manual regression testing for large, medium and small breakpoints performed on the browsers above. All links and pages checked and validated as working.
+When running my code through the HTML validator the only minor warnings were in reference to external code from Google etc so I decided not to modify that code.
 
 User Stories -
 As a new/existing user I'd like to gain inspiration to visit a new destination
